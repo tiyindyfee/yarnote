@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+
+.text-logo {
+    font-family: 'Baloo Bhaina', cursive;
+}
+
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.text-link {
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+
+.logo {
+    font-family: 'Baloo Bhaina', cursive;
+}
+
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#addNote {
+    border-radius: 50%;
+    position: absolute;
+    right: 25px;
+    top: 145px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.25);
+    transition: all 0.1s ease;
+    z-index: 1;
+}
+
+#addNote:hover,
+#addNote:focus {
+    transform: scale(1.4) translateX(-5px);
+}
+
+.note-link {
+    position: relative;
+    top: -80px;
+    text-align: center;
+    color: white;
+    display: block;
+}
+
+.card-content {
+    cursor: pointer;
+}
